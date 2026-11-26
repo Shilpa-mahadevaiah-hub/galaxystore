@@ -7,7 +7,7 @@ import Customers from "./Customers";
 import styles from "./analytics.module.css";
 
 //force dynamic will make sure that the page is always rendered on the server and never cached
-export const dynamic = "force-dynamic";
+//export const dynamic = "force-dynamic";
 
 export default function AnalyticsDashboard() {
   return (
