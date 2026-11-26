@@ -1,6 +1,6 @@
 import styles from "./promotions.module.css";
 
-export const revalidate = 30;
+//export const revalidate = 30;
 
 export default async function PromotionsPage() {
   const response = await fetch(
