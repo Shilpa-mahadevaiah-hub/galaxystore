@@ -1,0 +1,143 @@
+.orderCard {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.label {
+  margin: 0 0 6px;
+  color: #6d28d9;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title {
+  margin: 0;
+  color: #1f2937;
+  font-size: 30px;
+}
+
+.status {
+  padding: 7px 14px;
+  background-color: #dcfce7;
+  color: #15803d;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.summaryItem {
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+}
+
+.summaryItem span {
+  margin-bottom: 8px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.summaryItem strong {
+  color: #1f2937;
+  font-size: 20px;
+}
+
+.summaryItem .total {
+  color: #15803d;
+}
+
+.sectionTitle {
+  margin-top: 30px;
+  color: #1f2937;
+  font-size: 21px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.item h3 {
+  margin: 0 0 6px;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.item p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.item > strong {
+  color: #1f2937;
+  font-size: 17px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f3f0ff;
+  border-radius: 10px;
+}
+
+.footer span {
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.footer strong {
+  color: #6d28d9;
+  font-size: 25px;
+}
+
+@media (max-width: 650px) {
+  .orderCard {
+    padding: 20px;
+  }
+
+  .summary {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    align-items: flex-start;
+    gap: 15px;
+  }
+}

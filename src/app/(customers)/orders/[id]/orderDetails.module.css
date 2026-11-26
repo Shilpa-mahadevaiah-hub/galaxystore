@@ -1,0 +1,37 @@
+.container {
+  min-height: 100vh;
+
+  padding: 40px 20px;
+
+  background-color: #f6f7fb;
+
+  font-family: Arial, sans-serif;
+}
+
+
+.backLink {
+  display: block;
+
+  max-width: 900px;
+
+  margin: 0 auto 20px;
+
+  color: #6d28d9;
+
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 650px) {
+  .container {
+    padding: 20px 12px;
+  }
+
+}

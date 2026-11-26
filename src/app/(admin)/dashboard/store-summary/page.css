@@ -1,0 +1,58 @@
+.container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card,
+.userCard {
+  width: 280px;
+  padding: 20px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  background-color: #f8f8f8;
+
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: 120px;
+
+  object-fit: contain;
+}
+
+.userCard img {
+  width: 90px;
+  height: 90px;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card h3,
+.userCard h3 {
+  color: #222;
+}
+
+.card p,
+.userCard p {
+  color: #555;
+}

@@ -1,0 +1,267 @@
+.container {
+  min-height: 100vh;
+
+  padding: 40px;
+
+  background-color: #f6f7fb;
+
+  font-family: Arial, sans-serif;
+}
+
+
+.header {
+  max-width: 1100px;
+
+  margin: 0 auto 30px;
+}
+
+
+.label {
+  margin: 0 0 5px;
+
+  color: #6d28d9;
+
+  font-size: 12px;
+  font-weight: bold;
+
+  letter-spacing: 2px;
+}
+
+
+.header h1 {
+  margin: 0;
+
+  color: #1f2937;
+
+  font-size: 36px;
+}
+
+
+.header > p:last-child {
+  color: #6b7280;
+}
+
+
+.dashboardGrid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 25px;
+
+  max-width: 1100px;
+
+  margin: auto;
+}
+
+
+.section {
+  min-height: 440px;
+
+  padding: 25px;
+
+  background-color: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+
+.sectionHeader {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.sectionLabel {
+  margin: 0 0 5px;
+
+  color: #6d28d9;
+
+  font-size: 11px;
+  font-weight: bold;
+
+  letter-spacing: 1.5px;
+}
+
+
+.sectionHeader h2 {
+  margin: 0;
+
+  color: #1f2937;
+
+  font-size: 22px;
+}
+
+
+.countBadge {
+  padding: 6px 10px;
+
+  background-color: #f3f0ff;
+  color: #6d28d9;
+
+  border-radius: 20px;
+
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+
+.orderItem,
+.customerItem {
+  display: flex;
+
+  align-items: center;
+
+  padding: 15px;
+
+  background-color: #f9fafb;
+
+  border: 1px solid #f0f1f3;
+  border-radius: 9px;
+}
+
+
+.orderItem {
+  justify-content: space-between;
+}
+
+
+.orderItem h3,
+.customerItem h3 {
+  margin: 0 0 5px;
+
+  color: #1f2937;
+
+  font-size: 15px;
+}
+
+
+.orderItem p,
+.customerItem p {
+  margin: 0;
+
+  color: #6b7280;
+
+  font-size: 13px;
+}
+
+
+.orderRight {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-end;
+
+  gap: 5px;
+}
+
+
+.orderRight strong {
+  color: #1f2937;
+}
+
+
+.status {
+  padding: 4px 8px;
+
+  background-color: #dcfce7;
+  color: #15803d;
+
+  border-radius: 20px;
+
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+.customerItem {
+  gap: 12px;
+}
+
+
+.avatar {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  background-color: #ede9fe;
+  color: #6d28d9;
+
+  border-radius: 50%;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.customerInfo {
+  min-width: 0;
+}
+
+
+.customerInfo p {
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+.loading {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 330px;
+
+  color: #6d28d9;
+
+  background-color: #faf9ff;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 800px) {
+
+  .container {
+    padding: 25px 15px;
+  }
+
+
+  .dashboardGrid {
+    grid-template-columns: 1fr;
+  }
+
+}
